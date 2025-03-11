@@ -15,7 +15,6 @@ This project is a CAD viewer application built with React and Three.js for the f
 
 ```bash
 git clone https://github.com/aakash1205/Insyde.io.git
-cd insyde-cad-viewer
 
 Frontend Setup
 Navigate to the frontend directory:
@@ -29,7 +28,7 @@ npm run dev
 
 The frontend should now be running at http://localhost:5173.
 
-
+You need Flask installed
 Backend Setup
 Navigate to the backend directory:
 cd backend
