@@ -14,7 +14,7 @@ This project is a CAD viewer application built with React and Three.js for the f
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/aakash1205/insyde-cad-viewer.git
+git clone https://github.com/aakash1205/Insyde.io.git
 cd insyde-cad-viewer
 
 Frontend Setup
