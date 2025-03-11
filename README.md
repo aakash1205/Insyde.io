@@ -18,7 +18,7 @@ git clone https://github.com/aakash1205/Insyde.io.git
 
 Frontend Setup
 Navigate to the frontend directory:
-cd frontend/cad-viewer
+cd Insyde.io/frontend/cad-viewer
 Install the dependencies:
 
 npm install
