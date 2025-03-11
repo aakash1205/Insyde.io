@@ -14,7 +14,7 @@ const Model = ({ modelUrl, format, onExport }) => {
 
     useEffect(() => {
         if (geometry) {
-            console.log(`✅ ${format.toUpperCase()} Model loaded successfully!`);
+            console.log(`${format.toUpperCase()} Model loaded successfully!`);
             const material = new THREE.MeshStandardMaterial({ color: "white", roughness: 0.2, metalness: 0.9 });
 
             let mesh;
@@ -62,7 +62,7 @@ const Model = ({ modelUrl, format, onExport }) => {
 
 const ModelViewer = ({ modelUrl }) => {
     if (!modelUrl) {
-        console.error("❌ Model URL is undefined!");
+        console.error("Model URL is undefined!");
         return null;
     }
     const format = modelUrl.split(".").pop()?.toLowerCase();
@@ -70,7 +70,7 @@ const ModelViewer = ({ modelUrl }) => {
 
     const exportToOBJ = () => {
         if (!exportMesh) {
-            console.error("❌ No model available for export!");
+            console.error("No model available for export!");
             return;
         }
 
@@ -88,9 +88,9 @@ const ModelViewer = ({ modelUrl }) => {
             link.click();
             document.body.removeChild(link);
 
-            console.log("✅ Exported successfully!");
+            console.log("Exported successfully!");
         } catch (error) {
-            console.error("❌ Error exporting OBJ:", error);
+            console.error("Error exporting OBJ:", error);
         }
     };
 
