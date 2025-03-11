@@ -31,7 +31,7 @@ The frontend should now be running at http://localhost:5173.
 You need Flask installed
 Backend Setup
 Navigate to the backend directory:
-cd backend
+cd Insyde.io/backend
 
-run this command to start python backend
+Run this command to start python backend
 python app.py
